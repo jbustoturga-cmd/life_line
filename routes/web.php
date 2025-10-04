@@ -36,3 +36,12 @@ Route::post('/contact', function (Request $request) {
 
     return back()->with('success', 'Formulario enviado correctamente (simulado)');
 });
+
+/* 🔹 Rutas que llevan a la vista de error 404 personalizada */
+Route::get('/mural', function () {
+    return view('error404'); // resources/views/error404.blade.php
+})->name('mural');
+
+Route::get('/productos', function () {
+    return view('error404'); // resources/views/error404.blade.php
+})->name('productos');

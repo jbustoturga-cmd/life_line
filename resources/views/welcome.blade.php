@@ -1,4 +1,4 @@
-```blade
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -151,8 +151,8 @@
 
     <nav>
       <a href="{{ route('contact') }}">Contáctanos</a>
-      <a href="#">Mural</a>
-      <a href="#">Productos</a>
+      <a href="mural">Mural</a>
+      <a href="productos">Productos</a>
       <a href="#">⋯</a>
     </nav>
 
@@ -175,4 +175,4 @@
 
 </body>
 </html>
-```
+
